@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 __author__ = 'Itay Aveksis'
 __email__ = 'itayav@nvidia.com'
-__package_name__ = 'pynetest'
+__package_name__ = 'pymlxtest'
 
 if sys.version_info < (3, 6):
     sys.exit(f'{__package_name__} requires Python 3.6 or higher')
